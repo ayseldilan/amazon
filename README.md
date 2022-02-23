@@ -1,30 +1,33 @@
-# Amazon - Clone using ReactJs
+## Introduction
+
+A small web app that tries to imitate the desktop web version of Amazon site, you can add items to the basket, delete them, and have your user authentification feauture thanks to Firebase.
 
 **Project Link** - ***https://alanbinu-ecommerce.web.app/***
 
-## Tech We Used
-
-- ReactJs
-- Firebase Hosting
-- Firebase Auth
-- Firebase Storage
-- React-Dom
-- React Redux
-- Stripe payment
-
 ## Features
 
-- Login and Logout
-- Add to cart
-- Remove from cart
-- Payment 
-- Neat and clean UI
+The features include:
 
-## Steps to run in your machine
+* 📝 Full E-Commerce application.
+* 📡 Realtime database in Firebase.
+* 📦 Full responsive
+* 💬 Stripe payment method
+* 📡 Hosted on Firebase.
 
-#### Run the following commands
+<!-- ## Components -->
+
+## Usage
+
+To run the application locally; clone the repo, install dependencies and run the app.
+
 ```
-npm i
-npm run start
+$ git clone https://github.com/nitish1310/amazon-clone
+$ cd amazon-clone
+$ npm && npm start
 ```
+
+The app starts in development mode and opens a browser window on `http://localhost:3000`. The project rebuilds and the browser reloads automatically when source files are changed. Any build or runtime errors are propagated and displayed in the browser.
+
+Setup:
+- run ```npm i && npm start``` for both client and server side to start the development server
 
